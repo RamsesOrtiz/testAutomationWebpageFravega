@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ProyectoFravega(failed)">
+    <classes>
+      <class name="com.fravega.test.frontend.PageTest">
+        <methods>
+          <include name="testBrandExists"/>
+          <include name="end"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- com.fravega.test.frontend.PageTest -->
+    </classes>
+  </test> <!-- ProyectoFravega(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

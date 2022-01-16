@@ -1,2 +1,2 @@
-# testAutomationWebpageFravega
-Test Automation from 3 testcases in fravega.com
+# testAutomationProjectFravega
+Test Automation Project with 3 testcases in de webpage fravega.com
