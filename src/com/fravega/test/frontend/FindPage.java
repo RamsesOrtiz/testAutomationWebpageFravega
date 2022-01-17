@@ -78,7 +78,7 @@ public class FindPage extends TestBase {
         Boolean result = null;
         int j = 0;
         for (int i = 0; i < productList().size(); i++) {
-            if (productList().get(i).getText().contains(brandName())) {
+            if (getText(productList().get(i)).contains(brandName())) {
                 j++;
             }
         }

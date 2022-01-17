@@ -32,6 +32,10 @@ public class TestBase {
         return driver.findElement(locator).getText();
     }
 
+    public String getText(WebElement element){
+        return element.getText();
+    }
+
     public List<WebElement> itemList(By locator){
         return driver.findElements(locator);
     }
