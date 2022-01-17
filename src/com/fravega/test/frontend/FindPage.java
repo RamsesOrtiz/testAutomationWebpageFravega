@@ -56,8 +56,7 @@ public class FindPage extends TestBase {
     }
 
     public List<WebElement> productList() {
-        List<WebElement> itemsList = itemList(resultsList);
-        return itemsList;
+        return itemList(resultsList);;
     }
 
     public int sizeList() throws InterruptedException {
