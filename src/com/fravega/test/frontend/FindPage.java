@@ -23,14 +23,14 @@ public class FindPage extends TestBase {
     public String PRODUCT = PageTest._PRODUCT();
 
     public void closePostalCodeBox() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         if (isDisplayed(postalCodeBoxLocator)) {
             click(postalCodeBoxLocator);
         }
     }
 
     public void searchProduct() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         if (isDisplayed(searchBoxLocator)) {
             click(searchBoxLocator);
             type(PRODUCT, searchBoxLocator);
@@ -41,7 +41,7 @@ public class FindPage extends TestBase {
     }
 
     public void filterProduct() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         if (isDisplayed(filterByTypeLocator)) {
             click(filterByTypeLocator);
             Thread.sleep(1000);
@@ -55,7 +55,8 @@ public class FindPage extends TestBase {
         }
     }
 
-    public List<WebElement> productList() {
+    public List<WebElement> productList() throws InterruptedException {
+        Thread.sleep(1000);
         return itemList(resultsList);
     }
 
@@ -87,7 +88,6 @@ public class FindPage extends TestBase {
         } else {
             result = false;
         }
-        System.out.println(j);
         return result;
     }
 }

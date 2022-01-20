@@ -21,7 +21,7 @@ public class PageTest {
     @BeforeTest
     public void start() throws InterruptedException {
         findPage = new FindPage(driver);
-        driver = findPage.geckoDriverConnection();
+        driver = findPage.chromeDriverConnection();
         findPage.visit(URL);
         driver.manage().window().maximize();
         findPage.closePostalCodeBox();
