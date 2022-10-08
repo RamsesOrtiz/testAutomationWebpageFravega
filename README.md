@@ -1,7 +1,7 @@
 # testAutomationProjectFravega
-Test Automation Project with 3 testcases in de webpage fravega.com
+Test Automation Project with 3 testcases on webpage fravega.com
 
-#Requirements of Chanllege
+#Requirements of Challenge
 
 Test Frontend:
 
